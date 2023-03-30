@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+*{
+   margin: 0px;
+   padding: 0px;
+   
+}
+body{
+  background: url('bg1.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+.container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+.container h1{
+  text-shadow: -5px -5px 5px black;
+  font-size:150px; 
+   color: white;
+   margin-bottom: 80px;
+   text-align: center;
+   font-family: 'Secular One', sans-serif;
+   border-bottom: 5px solid white;
+}
+ .container ::placeholder{
+   color :white;
+   font-size: 40px;
+ }
+.container input {
+  font-size: 50px;
+  padding: 20px;
+  margin-top: 20px;
+  width: 670px;
+  margin-bottom: 20px;
+  height :40px;
+  background: none;
+  border: none;
+  border-bottom: 5px solid white;
+  color: white;
+
+}
+.one{
+  /*display: flex;
+  flex-direction: column;*/
+  
+  margin: 20px;
+  /*align-items: center;
+  justify-content: center;*/
+}
+.one button{
+  width:250px; 
+  margin-left: 300px;
+  font-size: 45px;
+  border-radius: 15px;
+  border: 5px solid white;
+  background:none;
+  color: white;
+  padding: 15px;
+  box-shadow: 10px 12px 15px green;
+  box-shadow: -10px -12px 70px white;
+  margin-top: 100px;
+  font-weight: bold;
+}
+.one button:hover{
+  background:white;
+  color:black;
+  box-shadow: 10px 12px 15px green;
+  box-shadow: -10px -12px 200px black;
+}
+.one i{
+  color : white;
+  font-size: 50px;
+  margin: 20px;
+  margin-top: 40px;
+  padding: 15px;
+}
